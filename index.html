@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Mariage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #BB6F58; /* Terracotta */
+            padding: 20px;
+            color: #000;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        /* Premier chapitre */
+        .chapter-1 {
+            background-color: #BB6F58; /* Terracotta */
+            color: #000;
+        }
+        /* Deuxième et troisième chapitres */
+        .chapter-2, .chapter-3 {
+            background-color: #fff;
+            color: #000;
+        }
+        /* Formulaire */
+        button {
+            padding: 10px 15px;
+            background-color: #BB6F58; /* Terracotta */
+            border: none;
+            border-radius: 5px;
+            color: #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>✨ Bienvenue à notre mariage ! ✨</h1>
+        <p>Nous avons le plaisir de vous inviter à célébrer ce moment exceptionnel avec nous le 12 septembre 2025.</p>
+    </header>
+
+    <section class="chapter-2">
+        <h2>📍 Lieux & Horaires</h2>
+        <p>15h00 - Hôtel de ville de Brenthonne</p>
+        <p>16h00 - Église de Brenthonne</p>
+        <p>À l'issue de la cérémonie, venez vivre un moment unique…</p>
+        <p>Entre la Tour & l'Embuscade, notre cœur balance… 💓<br>Mais une chose est sûre : vous ne tomberez pas dans un piège, juste sur un délicieux festin ! 🍽️🎉</p>
+    </section>
+
+    <section class="chapter-3">
+        <h2>🌸 Pas de thème couleurs ? Impossible ! 🌸</h2>
+        <p>Si vous l’imaginez ainsi, c’est que vous ne connaissez pas bien la mariée et son goût pour l’extraordinaire. 💁‍♀️✨</p>
+        <p>Elle a prévu un choix subtil et élégant pour la palette :</p>
+        <ul>
+            <li>🌿 Une petite touche terracotta</li>
+            <li>🌾 Un soupçon de beige</li>
+            <li>🌱 Ou une caresse de vert sauge</li>
+        </ul>
+        <p>Bref, l'élégance des pastels, en toute simplicité ! 🌸🎨</p>
+    </section>
+
+    <section>
+        <h2>Ajoutez vos photos!</h2>
+        <form id="upload-form" action="#">
+            <input type="file" name="photo" accept="image/*">
+            <textarea name="message" placeholder="Laissez un message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+</body>
+</html>
