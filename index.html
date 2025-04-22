@@ -76,11 +76,13 @@
 
     <section>
         <h2>Ajoutez vos photos!</h2>
-        <form id="upload-form" action="#">
-            <input type="file" name="photo" accept="image/*">
-            <textarea name="message" placeholder="Laissez un message"></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+        <form id="upload-form" action="#" method="POST" enctype="multipart/form-data">
+    <label for="photos">Ajoutez vos photos :</label>
+    <input type="file" id="photos" name="photos[]" accept="image/*" multiple>
+    <textarea name="message" placeholder="Laissez un message"></textarea>
+    <button type="submit">Envoyer</button>
+</form>
+
     </section>
 
 </body>
